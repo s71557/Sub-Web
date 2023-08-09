@@ -299,7 +299,7 @@ export default {
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
-            label: "universal",
+            label: "ACL4SSR",
             options: [
               {
                 label: "ACL4SSR_Online 默认版 分组比较全(与Github同步)",
@@ -385,7 +385,12 @@ export default {
                 label: "ACL4SSR_Online_Full_Google 全分组 重度用户使用 谷歌细分(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Google.ini"
-              },
+              }
+            ]
+          },
+          {
+              label: "universal",
+            options: [
               {
                 label: "No-Urltest",
                 value:
