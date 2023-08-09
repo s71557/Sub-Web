@@ -317,6 +317,11 @@ export default {
             label: "customized",
             options: [
               {
+                label: "ACL4SSR_Online_Full_Google",
+                value:
+                  "http://192.168.11.1/ACL4SSR_Online_Full_Google.ini"
+              },
+              {
                 label: "Maying",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/maying.ini"
