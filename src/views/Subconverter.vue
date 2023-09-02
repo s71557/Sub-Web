@@ -409,7 +409,7 @@ export default {
               {
                 label: "仅自用勿选择",
                 value:
-                  "http://192.168.11.1/ACL4SSR_Online_Full_Google.ini"
+                  "http://192.168.11.252/ACL4SSR_Online_Full_Google.ini"
               },
               {
                 label: "Maying",
