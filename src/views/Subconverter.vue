@@ -216,14 +216,14 @@ export default {
             label: "universal",
             options: [
               {
-                label: "防DNS泄露",
+                label: "无分组防DNS泄露",
                 value:
                   "https://raw.githubusercontent.com/s71557/ACL4SSR/master/Clash/config/nodnsleak.ini"
               },
               {
-                label: "Urltest",
+                label: "有分组防DNS泄露",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
+                  "https://raw.githubusercontent.com/s71557/ACL4SSR/master/Clash/config/71557nodnsleak.ini"
               }
             ]
           },
