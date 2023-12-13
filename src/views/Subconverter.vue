@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            Subscription Converter
+            Stone special subscription conversion
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
@@ -331,7 +331,7 @@ export default {
     };
   },
   created() {
-    document.title = "Subscription Converter";
+    document.title = "Stone special subscription conversion";
     this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
