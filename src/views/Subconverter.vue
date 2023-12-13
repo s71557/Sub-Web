@@ -215,15 +215,10 @@ export default {
           {
             label: "universal",
             options: [
-	      {
-                label: "不良林解决DNS泄露 无分流群组(与Github同步)",
+              {
+                label: "防DNS泄露",
                 value:
                   "https://raw.githubusercontent.com/s71557/ACL4SSR/master/Clash/config/nodnsleak.ini"
-              },
-              {
-                label: "No-Urltest",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               },
               {
                 label: "Urltest",
