@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "https://sub.715577.xyz/sub?" },{ value: "https://sub.shizongliang.eu.org/sub?" }],
+        backendOptions: [{ value: "https://sub.71557.dpdns.org/sub?" },{ value: "http://127.0.0.1/sub?" }],
         remoteConfig: [
           {
             label: "universal",
